@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick/slick.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+
+    <title>Robe</title>
+</head>
+<body>
+
+    <div class="cart-items text-center">
+        <div class="card rounded-0">
+            <div class="carts-icon mt-2">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="cart-quantity">
+                <p>0 items</p>
+            </div>
+            <div class="carts-amount">
+                <p>TK 0</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart-details">
+        <div class="card">
+            <div class="row mb-3">
+                <div class="col-md-6 d-flex side-cart">
+                    <div class="carts-icon mt-1">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <h6><span>1</span>Items</h6>
+                </div>
+                <div class="col-md-6 text-end close-btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-md-9 d-flex">
+                    <div class="col-md-4">
+                        <div class="product-image">
+                            <img src="assets/image/premium-t-shirt1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-8 ms-1">
+                        <div class="product-name">
+                            <p>Half Sleeve T-Shirt ( Solid Color )</p>
+                            <div class="product-details">
+                                <p>ID: <span>2584</span></p>
+                                <p>Color: <span>White</span></p>
+                                <p>Size: <span>M</span></p>
+                                <p>Qty: <span>1</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-end">
+                    <div class="total">
+                        <h6>TK <span>350</span></h6>
+                    </div>
+                    <div class="cart-delete">
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row sub-total">
+                <hr class="cart-hr m-auto">
+                <div class="col-md-6">
+                    <h6 class="">Sub Total</h6>
+                </div>
+                <div class="col-md-6 text-end">
+                    <h6>TK <span>350</span></h6>
+                </div>
+                <div class="col-md-12 fw-boldd mt-1">
+                    <p>shipping and discount calculated at checkout</p>
+                </div>
+                <a href="">
+                    <div class="col-md-12 checkout-btn m-auto text-center mt-1">
+                        <h6>Checkout</h6>
+                    </div>
+                </a>
+                <spanc class="text-center">or</span>
+                <a href=""><p class="ctn-shop">Continue Shopping</p></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="whatsapp">
+        <div class="col-md-6 text-end wclose-btn">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <a href="#" class="whatsapp-btn pulse">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+
+
+    <!-- header section start -->
+    <section class="header-section">
+        <div class="container my-2">
+            <div class="row">
+                <div class="col-md-2 col-sm-2 col-5 d-inline justify-content-between inlinef">
+                        <div class="col-6">
+                            <div class="bar-icon">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                        </div>
+                        <div class="col-6 logoo">
+                            <a href="">
+                                <img width="70" src="assets/image/logo.png" alt="">
+                            </a>
+                        </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-1">
+                    <form action="">
+                        <div class="search-input text-center">
+                            <button type="submit" class="more-btnn">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <input class="topbar-search" type="text" name="search" placeholder="Search product">
+                            <button type="submit" class="btnn">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4 col-sm-4 col-6 d-inline justify-content-between">
+                    <div class="carts">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-6 d-flex justify-content-end">
+                                <a href="" class="cart d-flex align-items-center">
+                                    <div class="cart-amount">
+                                        <p>TK <span>0</span></p>
+                                    </div>
+                                    <div class="cart-icon">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                        <div class="cart-count">
+                                            <span>0</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-3 text-center user-log">
+                                <a href="#">
+                                    <i class="fa-regular fa-user"></i>
+                                    <p>Login</p>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-3 text-center wishlists">
+                                <a href="#">
+                                    <div class="wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <div class="wishlist-count text-center">
+                                            <span>0</span>
+                                        </div>
+                                    </div>
+                                    <p>Wishlist</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- header section end -->
+
+    <!-- category section start -->
+    <section class="category-section" id="menuubar">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="menubar-top">
+                        <div class="col-6">
+                            <div class="logo">
+                                <img src="assets/image/logo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-6 text-end close-btn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </div>
+                    <div class="col-12 menu-bottom">
+                        
+                    </div>
+                </div>
+                
+                <div class="col-lg-12">
+                    <div class="wraper-menu d-flex justify-content-between ps-0">
+                        <div class="menubar-hr"></div>
+                        <div class="category">
+                            <div class="category-single">
+                                <a href=""><p>MEN'S FASHION</p></a>
+                                <div class="chev-down">
+                                    <button onclick="toggleMenu()" class="tglmenu">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="sub-visible">
+                                <div class="subcategory mt-3">
+                                    <div class="subcategory-card me-5">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="submenu">
+                                            <a href=""><p>Formal Shirt</p></a>
+                                            <a href=""><p>Casual Shirt</p></a>
+                                            <a href=""><p>Shirt Combo</p></a>
+                                            <a href=""><p>Check Shirts</p></a>
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="submenu">
+                                            <a href=""><p>Formal Shirt</p></a>
+                                            <a href=""><p>Casual Shirt</p></a>
+                                            <a href=""><p>Shirt Combo</p></a>
+                                            <a href=""><p>Check Shirts</p></a>
+                                            <a href=""><p>Check Shirts</p></a>
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="submenu">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>GABARDINE PANT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="submenu">
+                                            <a href=""><p>Gabardine Combo</p></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-hr"></div>
+
+                        <div class="category">
+                            <div class="category-single">
+                                <a href=""><p>MEN'S FASHION</p></a>
+                                <div class="chev-down">
+                                    <button onclick="toggleMenu()" class="tglmenu">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="sub-visible">
+                                <div class="subcategory mt-3">
+                                    <div class="subcategory-card me-5">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="submenu">
+                                            <a href=""><p>Formal Shirt</p></a>
+                                            <a href=""><p>Casual Shirt</p></a>
+                                            <a href=""><p>Shirt Combo</p></a>
+                                            <a href=""><p>Check Shirts</p></a>
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="submenu">
+                                            <a href=""><p>Formal Shirt</p></a>
+                                            <a href=""><p>Casual Shirt</p></a>
+                                            <a href=""><p>Shirt Combo</p></a>
+                                            <a href=""><p>Check Shirts</p></a>
+                                            <a href=""><p>Check Shirts</p></a>
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="submenu">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>GABARDINE PANT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="submenu">
+                                            <a href=""><p>Gabardine Combo</p></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-hr"></div>
+
+                        <div class="category">
+                            <div class="category-single">
+                                <a href=""><p>MEN'S FASHION</p></a>
+                                <div class="chev-down">
+                                    <button onclick="toggleMenu()" class="tglmenu">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="sub-visible">
+                                <div class="subcategory mt-3">
+                                    <div class="subcategory-card me-5">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="submenu">
+                                            <a href=""><p>Formal Shirt</p></a>
+                                            <a href=""><p>Casual Shirt</p></a>
+                                            <a href=""><p>Shirt Combo</p></a>
+                                            <a href=""><p>Check Shirts</p></a>
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="submenu">
+                                            <a href=""><p>Formal Shirt</p></a>
+                                            <a href=""><p>Casual Shirt</p></a>
+                                            <a href=""><p>Shirt Combo</p></a>
+                                            <a href=""><p>Check Shirts</p></a>
+                                            <a href=""><p>Check Shirts</p></a>
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="submenu">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>GABARDINE PANT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="submenu">
+                                            <a href=""><p>Gabardine Combo</p></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-hr"></div>
+
+                        <div class="category">
+                            <div class="category-single">
+                                <a href=""><p>MEN'S FASHION</p></a>
+                                <div class="chev-down">
+                                    <button class="tglmenu">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="sub-visible">
+                                <div class="subcategory mt-3 d-flex">
+                                    <div class="subcategory-card me-5">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                            <div class="submenu">
+                                                <a href=""><p>Formal Shirt</p></a>
+                                                <a href=""><p>Casual Shirt</p></a>
+                                                <a href=""><p>Shirt Combo</p></a>
+                                                <a href=""><p>Check Shirts</p></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                            <div class="submenu">
+                                                <a href=""><p>Formal Shirt</p></a>
+                                                <a href=""><p>Casual Shirt</p></a>
+                                                <a href=""><p>Shirt Combo</p></a>
+                                                <a href=""><p>Check Shirts</p></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                            <div class="submenu">
+                                                <a href=""><p>Formal Shirt</p></a>
+                                                <a href=""><p>Casual Shirt</p></a>
+                                                <a href=""><p>Shirt Combo</p></a>
+                                                <a href=""><p>Check Shirts</p></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>GABARDINE PANT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                            <div class="submenu">
+                                                <a href=""><p>Gabardine Combo</p></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-hr"></div>
+
+                        <div class="category">
+                            <div class="category-single">
+                                <a href=""><p>MEN'S FASHION</p></a>
+                                <div class="chev-down">
+                                    <button class="tglmenu">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="sub-visible">
+                                <div class="subcategory mt-3 d-flex">
+                                    <div class="subcategory-card me-5">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                            <div class="submenu">
+                                                <a href=""><p>Formal Shirt</p></a>
+                                                <a href=""><p>Casual Shirt</p></a>
+                                                <a href=""><p>Shirt Combo</p></a>
+                                                <a href=""><p>Check Shirts</p></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                            <div class="submenu">
+                                                <a href=""><p>Formal Shirt</p></a>
+                                                <a href=""><p>Casual Shirt</p></a>
+                                                <a href=""><p>Shirt Combo</p></a>
+                                                <a href=""><p>Check Shirts</p></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                            <div class="submenu">
+                                                <a href=""><p>Formal Shirt</p></a>
+                                                <a href=""><p>Casual Shirt</p></a>
+                                                <a href=""><p>Shirt Combo</p></a>
+                                                <a href=""><p>Check Shirts</p></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>GABARDINE PANT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                            <div class="submenu">
+                                                <a href=""><p>Gabardine Combo</p></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-hr"></div>
+
+                        <div class="category">
+                            <div class="category-single">
+                                <a href=""><p>MEN'S FASHION</p></a>
+                                <div class="chev-down">
+                                    <button class="tglmenu">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="sub-visible">
+                                <div class="subcategory mt-3 d-flex">
+                                    <div class="subcategory-card me-5">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                            <div class="submenu">
+                                                <a href=""><p>Formal Shirt</p></a>
+                                                <a href=""><p>Casual Shirt</p></a>
+                                                <a href=""><p>Shirt Combo</p></a>
+                                                <a href=""><p>Check Shirts</p></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                            <div class="submenu">
+                                                <a href=""><p>Formal Shirt</p></a>
+                                                <a href=""><p>Casual Shirt</p></a>
+                                                <a href=""><p>Shirt Combo</p></a>
+                                                <a href=""><p>Check Shirts</p></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                            <div class="submenu">
+                                                <a href=""><p>Formal Shirt</p></a>
+                                                <a href=""><p>Casual Shirt</p></a>
+                                                <a href=""><p>Shirt Combo</p></a>
+                                                <a href=""><p>Check Shirts</p></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>GABARDINE PANT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                            <div class="submenu">
+                                                <a href=""><p>Gabardine Combo</p></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-hr"></div>
+
+                        <div class="category">
+                            <div class="category-single">
+                                <a href=""><p>MEN'S FASHION</p></a>
+                                <div class="chev-down">
+                                    <button class="tglmenu">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="sub-visible">
+                                <div class="subcategory mt-3 d-flex">
+                                    <div class="subcategory-card me-5">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                            <div class="submenu">
+                                                <a href=""><p>Formal Shirt</p></a>
+                                                <a href=""><p>Casual Shirt</p></a>
+                                                <a href=""><p>Shirt Combo</p></a>
+                                                <a href=""><p>Check Shirts</p></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                            <div class="submenu">
+                                                <a href=""><p>Formal Shirt</p></a>
+                                                <a href=""><p>Casual Shirt</p></a>
+                                                <a href=""><p>Shirt Combo</p></a>
+                                                <a href=""><p>Check Shirts</p></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>SHIRT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                            <div class="submenu">
+                                                <a href=""><p>Formal Shirt</p></a>
+                                                <a href=""><p>Casual Shirt</p></a>
+                                                <a href=""><p>Shirt Combo</p></a>
+                                                <a href=""><p>Check Shirts</p></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="subcategory-card">
+                                        <div class="subcategory-single">
+                                            <a href=""><p>GABARDINE PANT</p></a>
+                                            <div class="subchev-down">
+                                                <button onclick="toggleMenu()" class="tglsubmenu">
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                            </div>
+                                            <div class="submenu">
+                                                <a href=""><p>Gabardine Combo</p></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category-hr"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="mobile-menu">
+        <div class="row">
+            
+        </div>
+    </div>
+    <!-- category section end -->
+
+    <!-- login section start-->
+     <section class="login-section my-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 m-auto">
+                    <div class="login-card">
+                        <div class="form-header">
+                            <h3>LOGIN WITH PHONE NUMBER</h3>
+                        </div>
+                        <div class="card-body">
+                            <form action="">
+                                <div class="mt-3">
+                                    <!-- <label for="">Mobile No</label> -->
+                                     <p>Mobile No</p>
+                                    <input type="text" class="login-input" name="mobile-number" placeholder="01xxx-xxxxxx">
+                                </div>
+                                <div class="pt-4">
+                                    <button type="submit" class="login-btn">SEND CODE</button>
+                                </div>
+                            </form>
+                            <div class="row mt-2">
+                                <div class="hr-row d-flex align-items-center justify-content-between">
+                                    <div class="col-md-5">
+                                        <hr class="login-hr">
+                                    </div>
+                                    <div class="col-md-2 text-center">
+                                        <h3>OR</h3>
+                                    </div>
+                                    <div class="col-md-5 d-flex justify-content-end">
+                                        <hr class="login-hr">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-6">
+                                    <a href="">
+                                        <div class="lw-social d-flex align-items-center justify-content-center">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                            <p class="text-center">facebook</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="">
+                                        <div class="lwr-social lw-social d-flex align-items-center justify-content-center">
+                                            <i class="fa-brands fa-google"></i>
+                                            <p class="text-center">Google</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="hr-row d-flex align-items-center justify-content-between py-3">
+                                <div class="col-md-5">
+                                    <hr class="login-hr">
+                                </div>
+                                <div class="col-md-5 d-flex justify-content-end">
+                                    <hr class="login-hr">
+                                </div>
+                            </div>
+                            <div class="row pb-4">
+                                <a href="">
+                                    <div class="col-md-12">
+                                        <div class="pass-login d-flex justify-content-center">
+                                            <p class="py-2">Login with password</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- login section start-->
+
+
+    
+    <!-- footer section start -->
+    <section class="footer-section">
+        <div class="container-fluid footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        <div class="logo">
+                            <a href="">
+                                <img class="mb-3" width="100" src="assets/image/logo.png" alt="">
+                            </a>
+                        </div>
+                        <p><span class="bld">robe.com.bd</span> is a growing fashion house in Bangladesh. Starting its journey in 2022, presently <span class="bld">ROBE</span> has outlets in Mirpur-2 and Mirpur-10, Dhaka.
+
+                        Unparalleled standard in design and quality is at the core of our business. Our goal is to lead the fashion industry by bringing quality products in affordable price.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-6 quick-links">
+                                <div class="ql-header">
+                                    <h4>Quick Links</h4>
+                                    <hr class="footer-hr">
+                                </div>
+                                <a href=""><p>About Us</p></a>
+                                <hr class="ql-hr">
+                                <a href=""><p>Contuct Us</p></a>
+                                <hr class="ql-hr">
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-6 quick-links">
+                                <div class="ql-header">
+                                    <h4>Information</h4>
+                                    <hr class="footer-hr">
+                                </div>
+                                <a href=""><p>How to order</p></a>
+                                <hr class="ql-hr">
+                                <a href=""><p>Return policy</p></a>
+                                <hr class="ql-hr">
+                                <a href=""><p>Shipment</p></a>
+                                <hr class="ql-hr">
+                            </div>
+                            <div class="col-md-12">
+                                <a href="">
+                                    <div class="location">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <h6>ROBE SHOWROOM</h6>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="ql-header">
+                            <h4>Follow Us</h4>
+                            <hr class="footer-hr">
+                            <div class="social-icon">
+                                <a href="">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </div>
+                            <img src="assets/image/hills (1).jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <p>© robe.com.bd 2024 All rights reserved</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 text-end">
+                        <div class="footer-dev">
+                            <p>Developed by MURAD</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section end -->
+
+
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/slick/slick.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
