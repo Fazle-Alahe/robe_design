@@ -20,7 +20,7 @@
 </head>
 <body>
 
-    <div class="cart-items text-center">
+    <div class="cart-items all-carts text-center">
         <div class="card rounded-0">
             <div class="carts-icon mt-2">
                 <i class="fa-solid fa-cart-shopping"></i>
@@ -37,24 +37,24 @@
     <div class="cart-details">
         <div class="card">
             <div class="row mb-3">
-                <div class="col-md-6 d-flex side-cart">
+                <div class="col-md-6 col-6 d-flex side-cart">
                     <div class="carts-icon mt-1">
                         <i class="fa-solid fa-cart-shopping"></i>
                     </div>
                     <h6><span>1</span>Items</h6>
                 </div>
-                <div class="col-md-6 text-end close-btn">
+                <div class="col-md-6 col-6 text-end close-btn">
                     <i class="fa-solid fa-xmark"></i>
                 </div>
             </div>
             <div class="row mt-1">
-                <div class="col-md-9 d-flex">
-                    <div class="col-md-4">
+                <div class="col-md-9 col-9 d-flex">
+                    <div class="col-md-4 col-4">
                         <div class="product-image">
                             <img src="assets/image/premium-t-shirt1.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-md-8 ms-1">
+                    <div class="col-md-8 col-8 ms-1">
                         <div class="product-name">
                             <p>Half Sleeve T-Shirt ( Solid Color )</p>
                             <div class="product-details">
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 text-end">
+                <div class="col-md-3 col-3 text-end">
                     <div class="total">
                         <h6>TK <span>350</span></h6>
                     </div>
@@ -77,22 +77,22 @@
             </div>
             <div class="row sub-total">
                 <hr class="cart-hr m-auto">
-                <div class="col-md-6">
+                <div class="col-md-6 col-6">
                     <h6 class="">Sub Total</h6>
                 </div>
-                <div class="col-md-6 text-end">
+                <div class="col-md-6 col-6 text-end">
                     <h6>TK <span>350</span></h6>
                 </div>
-                <div class="col-md-12 fw-boldd mt-1">
+                <div class="col-md-12 col-12 fw-boldd mt-1">
                     <p>shipping and discount calculated at checkout</p>
                 </div>
                 <a href="">
-                    <div class="col-md-12 checkout-btn m-auto text-center mt-1">
+                    <div class="col-md-12 col-12 checkout-btn m-auto text-center mt-1">
                         <h6>Checkout</h6>
                     </div>
                 </a>
-                <spanc class="text-center">or</span>
-                <a href=""><p class="ctn-shop">Continue Shopping</p></a>
+                <span class="text-center">or</span>
+                <a href=""><p class="ctn-shop text-center">Continue Shopping</p></a>
             </div>
         </div>
     </div>
@@ -123,23 +123,24 @@
                         </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-1">
-                    <form action="">
-                        <div class="search-input text-center">
-                            <button type="submit" class="more-btnn">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </button>
-                            <input class="topbar-search" type="text" name="search" placeholder="Search product">
-                            <button type="submit" class="btnn">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </button>
+                    <div class="search-input text-center">
+                        <button class="more-btnn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <div class="chev-up">
+                            <i class="fa-solid fa-caret-up"></i>
                         </div>
-                    </form>
+                        <input class="topbar-search" type="text" name="search" placeholder="Search product">
+                        <button type="submit" class="btnn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="col-md-4 col-sm-4 col-6 d-inline justify-content-between">
                     <div class="carts">
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-6 d-flex justify-content-end">
-                                <a href="" class="cart d-flex align-items-center">
+                                <div class="all-carts cart d-flex align-items-center justify-content-end">
                                     <div class="cart-amount">
                                         <p>TK <span>0</span></p>
                                     </div>
@@ -149,10 +150,10 @@
                                             <span>0</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
-                            <div class="col-md-3 col-sm-3 col-3 text-center user-log">
-                                <a href="#">
+                            <div class="col-md-3 col-sm-3 col-3 text-center user-log d-flex justify-content-center">
+                                <a href="login.html" class="">
                                     <i class="fa-regular fa-user"></i>
                                     <p>Login</p>
                                 </a>
@@ -187,7 +188,7 @@
                                 <img src="assets/image/logo.png" alt="">
                             </div>
                         </div>
-                        <div class="col-6 text-end close-btn">
+                        <div class="col-6 text-end mobile-close-btn">
                             <i class="fa-solid fa-xmark"></i>
                         </div>
                     </div>
@@ -748,33 +749,48 @@
         <div class="container-fluid">
             <div class="autoplay">
                 <div class="slide">
-                    <a href="">
+                    <a href="" class="banner">
                         <img src="assets/image/banner2.jpg" alt="">
                     </a>
-                </div>
-                <div class="slide">
-                    <a href="">
-                        <img src="assets/image/banner3.jpg" alt="">
+
+                    <a href="" class="mobile-banner">
+                        <img src="assets/image/mobile-banner2.jpg" alt="">
                     </a>
                 </div>
                 <div class="slide">
-                    <a href="">
+                    <a href="" class="banner">
+                        <img src="assets/image/banner3.jpg" alt="">
+                    </a>
+
+                    <a href="" class="mobile-banner">
+                        <img src="assets/image/mobile-banner.jpg" alt="">
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="" class="banner">
                         <img src="assets/image/banner4.jpg" alt="">
                     </a>
-                </div>
-                <div class="slide">
-                    <a href="">
-                        <img src="assets/image/banner5.jpg" alt="">
+                    
+                    <a href="" class="mobile-banner">
+                        <img src="assets/image/mobile-banner4.jpg" alt="">
                     </a>
                 </div>
                 <div class="slide">
-                    <a href="">
+                    <a href="" class="banner">
                         <img src="assets/image/banner5.jpg" alt="">
+                    </a>
+                    
+                    <a href="" class="mobile-banner">
+                        <img src="assets/image/mobile-banner2.jpg" alt="">
                     </a>
                 </div>
                 <div class="slide">
-                    <a href="">
+                    <a href="" class="banner">
                         <img src="assets/image/banner3.jpg" alt="">
+                    </a>
+                    
+                    <a href="" class="mobile-banner">
+                        <img src="assets/image/mobile-banner3.jpg" alt="">
                     </a>
                 </div>
             </div>

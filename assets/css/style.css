@@ -140,7 +140,7 @@ a:hover{
 .menubar-top{
     display: none;
 }
-.cart-details .col-md-6 i{
+.cart-details .carts-icon i{
     font-size: 22px;
 }
 .side-cart h6{
@@ -180,8 +180,9 @@ a:hover{
     border: 0.5px solid #6B7280;
 }
 .sub-total{
-    position: absolute;
-    bottom: -210%;
+    position: fixed;
+    bottom: 5%;
+    margin-right: 4px;
 }
 .cart-details .sub-total h6{
     font-size: 22px;
@@ -222,6 +223,9 @@ a:hover{
     outline: none;
     border: none;
 }
+.chev-up{
+    display: none;
+}
 .search-input i{
     color: #999999;
 }
@@ -232,6 +236,7 @@ a:hover{
     color: #FF4D03;
 }
 .cart{
+    cursor: pointer;
     width: 85%;
     text-align: center;
     height: 55px;
@@ -323,6 +328,7 @@ a:hover{
     width: 100%;
     /* width: 100vw; */
     box-shadow: 0 0 1px 1px rgb(241, 238, 238);
+    border-radius: 2px;
     padding: 10px;
     z-index: 1;
 }
@@ -342,6 +348,9 @@ a:hover{
 .main-slider{
     cursor: pointer;
     margin-bottom: 50px;
+}
+.main-slider .mobile-banner{
+    display: none;
 }
 .main-slider img{
     height: 85vh;
@@ -644,6 +653,9 @@ a:hover{
         display: flex;
         justify-self: center;
     }
+    .cart-details{
+        width: 70%;
+    }
     .cart-items .card{
         width: 65px;
     }
@@ -828,6 +840,60 @@ a:hover{
     h3{
         font-size: 1.2rem;
     }
+    .cart-details .carts-icon i{
+        font-size: 17px;
+    }
+    .carts-icon{
+        margin-top: 0 !important;
+    }
+    .side-cart h6{
+        font-size: 17px;
+    }
+    .product-image img{
+        width: 70%;
+        border-radius: 3px;
+    }
+    .product-name p{
+        font-size: 12px;
+    }
+    .product-details p{
+        font-size: 11px;
+    }
+    .total h6{
+        font-size: 16px;
+    }
+    .cart-delete{
+        margin-top: 40%;
+    }
+    .cart-delete i{
+        font-size: 17px;
+        color: #6B7284;
+    }
+    .sub-total{
+        position: fixed;
+        bottom: 15%;
+    }
+    .cart-details .sub-total h6{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .cart-details .checkout-btn{
+        width: 100%;
+        background-color: black;
+        padding: 5px 0;
+    }
+    .cart-details .checkout-btn h6{
+        color: white;
+        margin: 0;
+        font-size: 14px;
+    }
+    .fw-boldd p{
+        font-size: 12px;
+    }
+    .ctn-shop{
+        color: #9566F1;
+        font-size: 14px;
+    }
     .cart-items{
         display: none;
     }
@@ -866,13 +932,13 @@ a:hover{
     .search-input input{
         display: none;
         position: absolute;
-        top: 32px;
-        left: -250%;
+        top: 56px;
+        left: -150px;
         z-index: 3;
-        border: 1px solid black;
+        border: 2px solid black;
         border-radius: 3px;
         padding: 0 0 0 5px !important;
-        width: 150px;
+        width: 300px;
         font-size: 13px;
     }
     .inp-active{
@@ -883,13 +949,21 @@ a:hover{
     }
     .more-btnn{
         display: inline-block;
-        margin-top: 65%;
+        margin-top: 13px;
         border: none;
         background: #fff;
     }
     .more-btnn i{
         color: black;
         font-size: 22px;
+    }
+    .chev-up{
+        display: none;
+        margin-top: -4px;
+    }
+    .chev-up i{
+        color: black;
+        font-size: 40px;
     }
     .xsr{
         display: flex;
@@ -963,7 +1037,7 @@ a:hover{
         width: 50px;
         box-shadow: -13px 0px 35px -13px rgba(0,0,0,0.45);
     }
-    .close-btn i{
+    .mobile-close-btn i{
         font-size: 20px;
         margin-left: 100px;
         padding: 15px;
@@ -1060,6 +1134,19 @@ a:hover{
         margin-left: 10px;
         display: none;
     }
+    .main-slider{
+        margin-top: 45px;
+    }
+    .main-slider img{
+        height: 100vh;
+        width: 100vw;
+    }
+    /* .main-slider .banner{
+        display: none;
+    } */
+    /* .main-slider .mobile-banner{
+        display: block;
+    } */
     /* .subcategory-card:hover .submenu{
         display: block;
     } */
@@ -1092,6 +1179,7 @@ a:hover{
     }
     .footer-top .logo{
         text-align: center;
+        margin-bottom: 10px;
     }
     .quick-links{
         margin-top: 10px;
@@ -1107,7 +1195,10 @@ a:hover{
         text-align: center;
     }
     .footer-bottom{
-        text-align: center;
+        text-align: center;padding: 10px 0;
+    }
+    .footer-bottom p{
+        padding: 0;
     }
 }
 
@@ -1138,6 +1229,7 @@ a:hover{
     color: white;
     border-radius: 5px;
     font-weight: 500;
+    transition-duration: 0.3s;
 }
 .login-btn:hover{
     color: #595959;
@@ -1155,6 +1247,7 @@ a:hover{
     padding: 6px 0;
     text-align: center;
     border: 1px solid #2B5C93;
+    transition-duration: 0.3s;
 }
 .lw-social:hover{
     color: #2B5C93;

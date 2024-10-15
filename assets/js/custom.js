@@ -1,7 +1,7 @@
 // cart item
 
 $(document).ready(function(){
-  $(".cart-items").click(function(){
+  $(".all-carts").click(function(){
     $(".cart-details").addClass("active");
   });
 
@@ -17,7 +17,7 @@ $(document).ready(function(){
     $(".category-section").addClass("hamburger");
   });
 
-  $(".close-btn").click(function(){
+  $(".mobile-close-btn").click(function(){
     $(".category-section").removeClass("hamburger");
   });
 });
@@ -33,18 +33,21 @@ $(document).ready(function(){
   });
 })
 
-
+// whatsapp button
 $(document).ready(function(){
   $(".wclose-btn").click(function(){
     $(".whatsapp").addClass("wt-remove");
   });
 })
 
-// let submenu = document.getElementById('menu1')
+// search for mobile
+$(document).ready(function(){
+  $(".more-btnn").click(function(){
+    $(".search-input input").toggleClass('tggl')
+    $(".chev-up").toggleClass('tggl')
+  });
+});
 
-// function toggleMenu(){
-//   submenu.classList.toggle('tggl');
-// }
 
 $(function() {
   $(".tglmenu").click(function() {
@@ -63,18 +66,6 @@ $(function() {
 
 
 
-// var allCategory = document.querySelectorAll('.sub-visible');
-// for (let i = 0; i < allCategory.length; i++) {
-//   allCategory[i].onclick = function() {
-//     var c = 0;
-//     while (c < el.length) {
-//       allCategory[c++].className = 'slide';
-//     }
-//     allCategory[i].className = 'slide tggl';
-//   };
-// }
-
-
 $(function() {
   $(".tglsubmenu").click(function() {
     
@@ -87,8 +78,6 @@ $(function() {
     }
   });
 });
-
-
 
 
 

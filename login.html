@@ -20,7 +20,7 @@
 </head>
 <body>
 
-    <div class="cart-items text-center">
+    <div class="cart-items all-carts text-center">
         <div class="card rounded-0">
             <div class="carts-icon mt-2">
                 <i class="fa-solid fa-cart-shopping"></i>
@@ -125,23 +125,24 @@
                         </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-1">
-                    <form action="">
-                        <div class="search-input text-center">
-                            <button type="submit" class="more-btnn">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </button>
-                            <input class="topbar-search" type="text" name="search" placeholder="Search product">
-                            <button type="submit" class="btnn">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </button>
+                    <div class="search-input text-center">
+                        <button class="more-btnn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <div class="chev-up">
+                            <i class="fa-solid fa-caret-up"></i>
                         </div>
-                    </form>
+                        <input class="topbar-search" type="text" name="search" placeholder="Search product">
+                        <button type="submit" class="btnn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="col-md-4 col-sm-4 col-6 d-inline justify-content-between">
                     <div class="carts">
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-6 d-flex justify-content-end">
-                                <a href="" class="cart d-flex align-items-center">
+                                <div class="all-carts cart d-flex align-items-center justify-content-end">
                                     <div class="cart-amount">
                                         <p>TK <span>0</span></p>
                                     </div>
@@ -151,10 +152,10 @@
                                             <span>0</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
-                            <div class="col-md-3 col-sm-3 col-3 text-center user-log">
-                                <a href="#">
+                            <div class="col-md-3 col-sm-3 col-3 text-center user-log d-flex justify-content-center">
+                                <a href="login.html" class="">
                                     <i class="fa-regular fa-user"></i>
                                     <p>Login</p>
                                 </a>
@@ -751,7 +752,7 @@
             <div class="row">
                 <div class="col-md-5 m-auto">
                     <div class="login-card">
-                        <div class="form-header">
+                        <div class="form-header text-center">
                             <h3>LOGIN WITH PHONE NUMBER</h3>
                         </div>
                         <div class="card-body">
@@ -767,19 +768,19 @@
                             </form>
                             <div class="row mt-2">
                                 <div class="hr-row d-flex align-items-center justify-content-between">
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 col-5">
                                         <hr class="login-hr">
                                     </div>
-                                    <div class="col-md-2 text-center">
+                                    <div class="col-md-2 col-2 text-center">
                                         <h3>OR</h3>
                                     </div>
-                                    <div class="col-md-5 d-flex justify-content-end">
+                                    <div class="col-md-5 col-5 d-flex justify-content-end">
                                         <hr class="login-hr">
                                     </div>
                                 </div>
                             </div>
                             <div class="row mt-2">
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-6">
                                     <a href="">
                                         <div class="lw-social d-flex align-items-center justify-content-center">
                                             <i class="fa-brands fa-facebook-f"></i>
@@ -787,7 +788,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-6">
                                     <a href="">
                                         <div class="lwr-social lw-social d-flex align-items-center justify-content-center">
                                             <i class="fa-brands fa-google"></i>
